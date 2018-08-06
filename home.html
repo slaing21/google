@@ -7,15 +7,15 @@
 	</head>
 
 	<body>
+		<script type="text/javascript">
+			function focusIt()
+			{
+				var my_search_box = document.getElementById("search-box");
+				my_search_box.focus();
+			}
+			onload = focusIt;
+		</script>
 		<header>
-			<script type="text/javascript">
-				function focusIt()
-				{
-					var my_search_box = document.getElementById("search-bar");
-					my_search_box.focus();
-				}
-				onload = focusIt;
-			</script>
 			<div class="header-links">
 				<div class="header-link">
 					<a href="https://www.google.com/intl/en/about/">About</a>
@@ -48,7 +48,7 @@
 		</div>
 
 		<div class="search-bar">
-			<input type="text" spellcheck="false" role="combobox" aria-autocomplete="list"></input>
+			<input id="search-box" type="text" spellcheck="false" role="combobox" aria-autocomplete="list"></input>
 		</div>
 
 		<div class="buttons">
