@@ -1,0 +1,204 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+.account-links {
+	position: absolute;
+	top: -5px;
+	right: 15px;
+	font-family: arial, sans-serif;
+	margin-top: 21px;
+}
+
+.account-link {
+	font-size: 13px;
+	display: inline-block;
+	padding-right: 15px;
+}
+
+.account-link a {
+	text-decoration: none;
+	color: #000;
+}
+
+.account-link:hover {
+	text-decoration: underline;
+}
+
+header ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+.sign-in {
+	width: 43.344px;
+	height: 28px;
+	padding-left: 12px;
+	padding-right: 12px;
+	background-color: #4285f4;
+	color: #fff;
+	border-radius: 2px;
+	font-weight: bold;
+	border: 1px solid #4285f4;
+	font-size: small;
+	align-items: center;
+}
+
+.sign-in:hover {
+	box-shadow: 0.2px 0.2px #4285F4;
+}
+
+.header-links {
+	padding-left: 10px;
+	padding-top: 21px;
+}
+
+.header-link {
+	opacity: 0.75;
+	display: inline-block;
+	padding-left: 15px;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+}
+
+.header-link a {
+	text-decoration: none;
+	color: #000;
+}
+
+.header-link:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	display: grid;
+	justify-content: center;
+	padding-top: 160px;
+}
+
+.logo img {
+	height: 92px;
+	width: 272px;
+}
+
+.search-bar {
+	display: grid;
+	justify-content: center;
+	margin-top: 1.5em;
+	grid-column: 1/-1;
+	height: 44px;
+	text-align: left;
+}
+
+
+.search-bar input {
+	width: 503px;
+	height: 39px;
+	padding: 5px 65px 0px 16px;
+}
+
+.search-bar input[type="text"] {
+	box-shadow: 2px 3px 20px 2px rgba(0, 0, 0, 0.01);
+	border: 1px solid lightgray;
+	border-radius: 0.05rem;
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+}
+
+.search-bar input[type="text"]:hover {
+	box-shadow: 2px 5px 20px 2px rgba(0, 0, 0, 0.05);
+
+}
+
+.search-bar input[type="text"]:focus {
+	box-shadow: 2px 5px 20px 2px rgba(0, 0, 0, 0.05);
+	outline: none;
+}
+
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+}
+
+.button input[type="submit"] {
+	align-items: flex-start;
+	text-align: center;
+	cursor: default;
+}
+
+.button {
+	height: 34px;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin: 11px 4px 11px 4px;
+	border-radius: 2px;
+	background-color: #f2f2f2;
+	color: #686363;
+	position: relative;
+	font-size: .80em;
+	font-family: Arial;
+	text-align: center;
+	font-weight: 600;
+	margin: 0px 5px 5px 5px;
+	border: 1px solid #f2f2f2;
+	opacity: 0.9;
+}
+
+.button .buttonLucky {
+	width: 108.578px;
+}
+
+.button .buttonSearch {
+	width: 91.750px;
+}
+
+.button:hover {
+	border: 1px solid #c6c6c6;
+	opacity: 1;
+	color: black;
+}
+
+footer {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	border-top: 1px solid #d1d1d1;
+	text-align: right;
+	width: 100%;
+	background-color: #f2f2f2;
+	margin-bottom: 3px;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 10px;
+	opacity: 0.65;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+footer ul li a:hover {
+	text-decoration: underline;
+}
+
+.footer-left {
+	float: left;
+	margin-left: 23px;
+}
+
+.footer-right {
+	float: right;
+	margin-right: 23px;
+}
